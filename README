@@ -117,6 +117,14 @@ sql-testing-practice/
 - The project is focused on SQL usage relevant to Manual QA and data validation.
 - The database scripts are intentionally simple and do not represent a production database design.
 
+## Validation Result
+
+The database was recreated from the repository scripts and all 12 SQL validation scenarios were executed in SQLite using DBeaver Community.
+
+All executed queries produced the expected results documented in `documentation/sql-test-scenarios.md`.
+
+**Execution date:** 2026-10-09
+
 ## Status
 
-In progress
+Completed
